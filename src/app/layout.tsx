@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     "포트폴리오", "이력서", "Frontend", "React", "TypeScript",
     "Next.js", "Tailwind", "웹 이력서", "프로그래머 포트폴리오"],
   authors: [{name: "장권영"}],
+  verification: {
+    google: "49cb83d95f56e4b8",
+  },
 };
 
 export default function RootLayout({children,}: Readonly<{ children: ReactNode; }>) {
