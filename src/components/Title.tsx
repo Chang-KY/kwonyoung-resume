@@ -1,3 +1,5 @@
+"use client";
+
 const Title = (props: { title: string, subTitle?: string }) => {
   const {title, subTitle} = props;
 

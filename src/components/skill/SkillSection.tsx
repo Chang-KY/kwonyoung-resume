@@ -10,7 +10,7 @@ const renderSkillGroup = (title: string, skills: typeof frontEnd) => (
       {skills.map((skill, i) => (
         <li
           key={i}
-          className="flex items-center gap-2 bg-gray-50 hover:bg-gray-100 transition rounded-md px-3 py-1 text-sm shadow-sm border border-gray-100"
+          className="flex items-center gap-2 rounded px-3 py-1 text-sm border border-gray-200"
         >
           <span className="text-base">{skill.icon}</span>
           <span className="text-gray-800">{skill.skillTitle}</span>

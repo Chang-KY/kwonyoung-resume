@@ -5,7 +5,7 @@ const EducationSection = () => {
     <section className="w-full">
       <Title title="Education"/>
 
-      {/* Education Card */}
+      {/* education Card */}
       <div className="bg-white p-6 rounded-xl text-left">
         <div className="text-sm text-gray-800 space-y-1">
           <p className="text-base font-semibold text-gray-900">일본전자전문학교 고도정보처리과</p>
