@@ -10,22 +10,22 @@ const DevelopmentSection = () => {
         <article>
           <h4 className="text-base font-bold text-gray-900">
             NAMUTECH JAPAN (Japan)
-            <span className="ml-2 text-xs text-gray-500">2023.06.01 ~ 2025.05.15</span>
+            <span className="ml-2 text-xs text-gray-500 block xs:inline-block">2023.06.01 ~ 2025.05.15</span>
           </h4>
           <p className="text-gray-600 text-sm mt-1">Web & System Development Projects</p>
 
           <ul className="list-disc pl-5 mt-3 space-y-2">
             {[
               {
-                title: "Statistics Tool 개발・유지 보수",
-                desc: "SA/MVNO 서버로부터 수집되는 로그 데이터를 시각화하고 관리하는 웹 툴을 개발했습니다. Go와 Wails로 데스크탑 앱을 구성하고, React와 Tailwind로 UI를 설계했습니다.",
+                title: "로그 분석 추출 및 시각화 Tool 개발・유지 보수",
+                desc: "서버로부터 수집되는 로그 데이터를 시각화하고 관리하는 웹 툴을 개발했습니다. Go와 Wails로 데스크탑 앱을 구성하고, React와 Tailwind로 UI를 설계했습니다.",
               },
               {
                 title: "TMS(Task Management System) 개발・유지 보수",
                 desc: "사내 영업 이력 및 업무 태스크 관리 시스템을 React, Express, Tailwind 기반으로 구현하고 PostgreSQL과 연동하여 데이터 흐름을 구성했습니다.",
               },
               {
-                title: "나무 테크 재팬 공식 홈페이지 개발・유지 보수",
+                title: "공식 홈페이지 개발・유지 보수",
                 desc: "NAMUTECH JAPAN 공식 홈페이지를 반응형 웹으로 새롭게 제작하였으며, Tailwind 기반 그리드 UI로 크로스 브라우징과 접근성을 개선했습니다.",
               },
               {
@@ -33,7 +33,7 @@ const DevelopmentSection = () => {
                 desc: "Angular + NestJS 기반 내부 고객 및 프로젝트 관리 시스템 기능을 개발하고, Docker/Kubernetes 기반의 배포 환경을 경험했습니다.",
               },
               {
-                title: "Namutech Expense System 개발・유지 보수",
+                title: "Expense System 개발・유지 보수",
                 desc: "사내 교육비 및 출장비 등 경비 신청 → 결재 → 정산 흐름을 관리하는 시스템을 Angular + NestJS 기반으로 구현했습니다. 정산 완료 시 자동 메일 알림 기능도 포함되어 있습니다.",
               },
               {
@@ -63,7 +63,7 @@ const DevelopmentSection = () => {
         <article>
           <h4 className="text-base font-bold text-gray-900">
             W2 Solution (Japan)
-            <span className="ml-2 text-xs text-gray-500">2022.04.01 ~ 2023.05.01</span>
+            <span className="ml-2 text-xs text-gray-500 block xs:inline-block">2022.04.01 ~ 2023.05.01</span>
           </h4>
           <p className="text-gray-600 text-sm mt-1">Web Application Maintenance (SaaS Product)</p>
 

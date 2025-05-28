@@ -21,7 +21,7 @@ export default function Home() {
         <Header/>
 
         {/* Main Content */}
-        <main className="flex flex-col items-center text-center w-full">
+        <main className="">
           {/* 내 프사 */}
           <div className="mb-16 relative w-full h-[22rem]">
             <img

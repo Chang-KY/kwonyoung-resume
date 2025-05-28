@@ -8,7 +8,6 @@ const IframeUrl = (props: { url: string }) => {
       className="w-full h-full border"
       src={url}
     ></iframe>
-
   );
 };
 
