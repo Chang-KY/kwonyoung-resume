@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div id="home" className="flex items-center justify-center min-h-screen relative bg-white text-gray-900">
       <div className="absolute top-20 w-full max-w-[80rem]">
-        <div className="bg-teal-200 w-full h-80 rounded-xl max-w-[100rem]"/>
+        <div className="bg-teal-100 w-full h-80 rounded-xl max-w-[100rem]"/>
       </div>
       <div className="w-full max-w-4xl px-6 py-5">
         {/* Header */}

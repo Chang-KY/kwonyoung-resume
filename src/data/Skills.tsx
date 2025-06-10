@@ -43,16 +43,16 @@ export const frontEnd = [
     skillTitle: "React",
     desc: "컴포넌트 기반 UI 설계, 상태 관리, 훅 등을 이해하고 활용합니다.",
   },
-  {
-    icon: <SiNextdotjs className="size-5"/>,
-    skillTitle: "Next.js",
-    desc: "SSR, CSR, ISR 등 다양한 렌더링 방식과 파일 기반 라우팅 경험 보유",
-  },
-  {
-    icon: <SiVercel className="size-5"/>,
-    skillTitle: "Vercel",
-    desc: "Next.js 앱을 Vercel에 배포 및 CDN 연동 경험 보유",
-  },
+  // {
+  //   icon: <SiNextdotjs className="size-5"/>,
+  //   skillTitle: "Next.js",
+  //   desc: "SSR, CSR, ISR 등 다양한 렌더링 방식과 파일 기반 라우팅 경험 보유",
+  // },
+  // {
+  //   icon: <SiVercel className="size-5"/>,
+  //   skillTitle: "Vercel",
+  //   desc: "Next.js 앱을 Vercel에 배포 및 CDN 연동 경험 보유",
+  // },
   {
     icon: <SiTailwindcss className="size-5 text-sky-400"/>,
     skillTitle: "Tailwind CSS",
@@ -78,12 +78,12 @@ export const frontEnd = [
     skillTitle: "Redux",
     desc: "글로벌 상태 관리, 미들웨어 적용 경험 보유",
   },
-  {
-    icon: <img src="https://tsh.io/wp-content/uploads/2023/02/zustand-react-small.png"
-               className="size-5 text-yellow-700 rounded"/>,
-    skillTitle: "Zustand",
-    desc: "간단한 API 기반의 전역 상태 관리 구현 경험",
-  },
+  // {
+  //   icon: <img src="https://tsh.io/wp-content/uploads/2023/02/zustand-react-small.png"
+  //              className="size-5 text-yellow-700 rounded"/>,
+  //   skillTitle: "Zustand",
+  //   desc: "간단한 API 기반의 전역 상태 관리 구현 경험",
+  // },
   {
     icon: <SiAxios className="size-5 text-blue-600"/>,
     skillTitle: "Axios",
