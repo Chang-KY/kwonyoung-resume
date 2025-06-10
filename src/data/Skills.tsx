@@ -7,14 +7,14 @@ import {
   SiAmazonec2,
   SiAmazons3,
   SiAxios, SiExpress, SiMysql, SiNestjs,
-  SiNextdotjs,
+  // SiNextdotjs,
   SiPostcss,
   SiPostgresql,
   SiReactquery,
   SiRedux,
   SiTailwindcss,
   SiTypescript,
-  SiVercel
+  // SiVercel
 } from "react-icons/si";
 
 export const frontEnd = [
