@@ -20,7 +20,7 @@ export const projects: projects[] = [
     backend: "Node.js, Express, MySQL, Knex, Passport-JWT, Redis, Socket.IO",
     infra: "AWS EC2, S3, CloudFront, Nginx, Docker",
     liveUrl: "https://work-or-a.com",
-    githubUrl: "https://github.com/kwonyoung0508/work-or-a"
+    githubUrl: "https://github.com/Chang-KY/work-or-a"
   },
 ]
 
