@@ -23,6 +23,16 @@ export default function ProjectList({project}: { project: projects }) {
         {project.description}
       </p>
 
+        <div className="flex flex-col gap-2 text-sm text-gray-700">
+            <p>테스트 용</p>
+            <p>
+                mail: test@gmail.com
+            </p>
+            <p>
+                password: 12341234
+            </p>
+        </div>
+
       {/* 이미지 */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center sm:place-items-start">
         {project.images.map((src, idx) => (
