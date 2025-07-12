@@ -25,7 +25,6 @@ const AboutSection = () => {
                     </p>
                 </div>
 
-                // todo
                 {/* 카드 2 */}
                 <div className="bg-white rounded-xl text-left">
                     <h3 className="text-base font-semibold text-gray-900 mb-2">
