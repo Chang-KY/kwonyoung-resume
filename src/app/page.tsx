@@ -39,9 +39,9 @@ export default function Home() {
 
           {/* 내 소개글 */}
           <p className="text-left my-5 leading-relaxed text-gray-800 text-sm sm:text-base">
-            문제를 끝까지 파고들고, 코드의 본질을 고민하는 프론트엔드 개발자 <strong className="text-black">장권영</strong>입니다.<br/>
+            문제를 끝까지 파고듦과 동시에, 코드의 본질을 고민하는 프론트엔드 개발자 <strong className="text-black">장권영</strong>입니다.<br/>
             개발 과정에서 얻은 인사이트를 팀원과 적극적으로 공유하며, 함께 성장하는 개발 문화를 추구합니다.<br/>
-            말보다 행동으로 실력을 증명하고, 끊임없는 개선과 배움을 통해 더 나은 사용자 경험을 만드는 개발자가 되고자 합니다.
+            말보다 행동으로 실력을 증명하고, 끊임없는 개선과 배움을 통해 보다 나은 사용자 경험을 만드는 개발자가 되고자 합니다.
           </p>
 
           {/* 내 정보 */}
