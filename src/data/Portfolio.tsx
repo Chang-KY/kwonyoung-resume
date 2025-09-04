@@ -25,7 +25,7 @@ export const projects: projects[] = [
     password: "12341234"
   },
   {
-    notionUrl: 'https://sore-croissant-30e.notion.site/emotion-diary-1ecefa0a7f75801d850dedf64d60160c',
+    notionUrl: 'https://sore-croissant-30e.notion.site/ebd/1ecefa0a7f75801d850dedf64d60160c',
     id: "emotion-diary",
     title: "Emotion Diary",
     summary: "감정을 기록하고 돌아볼 수 있는 일기 서비스. 감정 카테고리, 공유 범위, 좋아요/댓글 등 소셜 요소를 더해, 매일의 감정을 시각적으로 관리",
