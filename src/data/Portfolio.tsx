@@ -24,6 +24,31 @@ export const projects: projects[] = [
     testId: "test@gmail.com",
     password: "12341234"
   },
+  {
+    notionUrl: 'https://sore-croissant-30e.notion.site/emotion-diary-1ecefa0a7f75801d850dedf64d60160c?source=copy_link',
+    id: "emotion-diary",
+    title: "Emotion Diary",
+    summary: "감정을 기록하고 돌아볼 수 있는 일기 서비스. 감정 카테고리, 공유 범위, 좋아요/댓글 등 소셜 요소를 더해, 매일의 감정을 시각적으로 관리",
+    description: `
+      Emotion Diary는 하루하루의 감정을 기록하고, 캘린더와 차트를 통해 돌아볼 수 있는 감정 기반 일기 플랫폼입니다.
+      사용자는 자신의 감정을 선택하고, 공유 범위를 설정하여 개인적으로 기록하거나 다른 사람과 나눌 수 있습니다.
+      댓글과 좋아요 기능을 통해 소통할 수 있으며, 무한 스크롤과 가상화 렌더링을 적용해 많은 기록도 쾌적하게 확인할 수 있습니다.
+    `,
+    images: ["/portfolio/emotion-diary1.webp", "/portfolio/emotion-diary2.webp"],
+    features: [
+      "Calendar 기반 감정 기록",
+      "감정 선택 및 시각화 (Emotion Chart)",
+      "공개 범위 설정 (개인/친구(팔로워)/전체)",
+      "댓글 & 좋아요 기능",
+      "무한 스크롤 & 가상화 렌더링",
+      "감정별 통계와 리포트"
+    ],
+    frontend: "React, TypeScript, Jotai, TanStack Query, Tailwind CSS, Vite",
+    backend: "supabase",
+    infra: "AWS S3, CloudFront",
+    liveUrl: "https://d5qx4tg7av4vj.cloudfront.net",
+    githubUrl: "https://github.com/Chang-KY/emotion-diary",
+  },
 ]
 
 export type projects = {
