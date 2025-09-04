@@ -6,12 +6,14 @@ import {FaGithub, FaBookOpen} from "react-icons/fa";
 import Modal from "@/components/Modal";
 import {useState} from "react";
 import IframeUrl from "@/components/IframeUrl";
+import clsx from "clsx";
 
-export default function ProjectList({project}: { project: projects }) {
+export default function ProjectList({project, index}: { project: projects, index: number }) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <article className="p-6 text-left space-y-6">
+    <article
+      className={clsx("p-6 text-left space-y-6", index === projects.length - 1 ? '' : 'border-b border-gray-200')}>
       {/* 제목 + 요약 */}
       <div>
         <h4 className="text-base font-semibold text-gray-900">{project.title}</h4>
@@ -23,15 +25,15 @@ export default function ProjectList({project}: { project: projects }) {
         {project.description}
       </p>
 
-        <div className="flex flex-col gap-2 text-sm text-gray-700">
-            <p>테스트 용</p>
-            <p>
-                mail: test@gmail.com
-            </p>
-            <p>
-                password: 12341234
-            </p>
-        </div>
+      <div className="flex flex-col gap-2 text-sm text-gray-700">
+        <p>테스트 용</p>
+        <p>
+          mail: test@gmail.com
+        </p>
+        <p>
+          password: 12341234
+        </p>
+      </div>
 
       {/* 이미지 */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center sm:place-items-start">

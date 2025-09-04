@@ -9,7 +9,7 @@ const PortfolioSection = () => {
       <Title title="Portfolio"/>
 
       {projects.map((value, index) => (
-        <ProjectList project={value} key={index}/>
+        <ProjectList project={value} key={index} index={index}/>
       ))}
     </section>
 
